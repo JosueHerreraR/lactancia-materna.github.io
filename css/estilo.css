@@ -27,7 +27,7 @@ html {
 /**********************/
         
 #inicio {
-    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/fondo-enfermero.jpg");
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../img/fondo-enfermero.webp");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -305,7 +305,7 @@ html {
 /* *********************/
         
 .contenedor-skills {
-    background: linear-gradient( #ADFCF9, rgba(55, 112, 114, 0.378)), url("../img/fondo-skills.jpg");
+    background: linear-gradient( #ADFCF9, rgba(55, 112, 114, 0.378)), url("../img/fondo-skills.webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
