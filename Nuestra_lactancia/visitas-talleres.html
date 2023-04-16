@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="stylesheet" href="../css/faq.css">
+        <title>Visitas y Talleres</title>
+    </head>
+    <body>
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>Lactancia Materna</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            </ul>
+                        </nav>
+    
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+    
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Nuestra Lactancia</p>
+                    <h2>Visitas y Talleres</h2>
+                    <p class="descripcion">¿En qué te podemos ayudar o qué necesitas?</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="title">Preguntas frecuentes</h1>
+        
+            <div class="questions-container">
+                <div class="question">
+                    <button>
+                        <span>¿Necesito realizar una consulta con una experta?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Ahora es muy fácil realizar una visita por videollamada con una de las expertas de LactApp. 
+                        En este enlace, podrás elegir entre nuestras expertas según el precio y el horario que mejor te vaya. 
+                        <br>
+                        Puedes comprar la consulta y recibirás un email con un enlace que será el que tendrás que usar el día de la visita. 
+                        De la misma manera, recibirás diversos emails para recordarte de que la visita se aproxima. 
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿Quiero hacer un taller o un grupo de apoyo?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        <b>Taller:</b> Nuestras expertas te ofrecen una gran cantidad y diversidad de talleres. 
+                        Entra en la web y revisa el taller que te interese, podrás ver la experta que lo realiza, 
+                        así como el día y la hora que se va llevar a cabo.
+                        <br>
+                        <b>Grupo:</b> La parte más importante es el encuentro con otras madres, el poder compartir y 
+                        escuchar a otras madres que es muy probable que hayan pasado por situaciones similares.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿En una consulta online se puede evaluar todo?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        La pandemia nos enseñó muchas cosas, una de ellas a realizar visitas sin tocar a madre o bebé, 
+                        cosa que ha demostrado tener unos efectos muy positivos en la autogestión de la lactancia en las familias. 
+                        Además de la evidente comodidad de no desplazarse hasta la consulta con un bebé recién nacido.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿Qué ventajas ofrecen las consultas online?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        Para todas las que hemos sido madres, es evidente que la consulta online tiene la principal ventaja de permitir solucionar
+                        todas las dudas desde casa, en un espacio en el que estamos cómodas y sin necesidad de desplazarnos a ninguna parte. 
+                        <br>
+                        Otra ventaja es el hecho de poder estar acompañadas de las personas que nos apetezca, como la pareja, los abuelos, 
+                        otros hijos, etc. que no siempre es fácil que nos desplacemos todos a la consulta.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION FOOTER -->
+        <footer>
+            <p>© Todos los derechos reservados 2023 - Hospital Gineco Pediatrico N°7</p>
+        </footer>
+
+        <script src="../js/main.js"></script>
+        <script src="../js/faq.js"></script>
+    </body>
+</html>

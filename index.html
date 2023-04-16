@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Lactancia materna</title>
+    </head>
+
+    <body>
+        <!-- SECCION INICIO -->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>Lactancia Materna</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>A la lactancia materna</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
+                    <a href="#portfolio">Ir a Portafolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION SOBRE MI -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/foto.jpg" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, Soy <span>Enfermera</span> </h2>
+                <h3>Gineco Pediatrico N°7</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta, similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+            </div>
+        </section>
+
+        <!-- SECCION SERVICIOS -->
+        <section id="servicios">
+            <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i class="fa-brands fa-facebook"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                    <h4>Porgramación PHP</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                    <h4>Posicionamiento SEO</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-database"></i></span>
+                    <h4>Alojamiento de Sitios</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                    <h4>Diseñador Gráfico</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                    <h4>Consultor Externo</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION HABILIDADES -->
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES </h3>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Javascript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bases de Datos</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Photoshop</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="ps"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCION PORTAFOLIO -->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Nuestra lactancia</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia1.jpg" alt="">
+                    <div class="info">
+                        <h4>Visitas y talleres</h4>
+                        <a href="visitas-talleres.html">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia2.jpg" alt="">
+                    <div class="info">
+                        <h4>Conceptos básicos</h4>
+                        <a href="conceptos-basicos.html">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia3.jpg" alt="">
+                    <div class="info">
+                        <h4>Lactancia por etapas</h4>
+                        <a href="lactancia-etapas.html">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia4.jpg" alt="">
+                    <div class="info">
+                        <h4>Baches y crisis/h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia5.jpg" alt="">
+                    <div class="info">
+                        <h4>¿Puedo...?</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia6.jpg" alt="">
+                    <div class="info">
+                        <h4>Lactancia mixta</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia7.jpg" alt="">
+                    <div class="info">
+                        <h4>Extracción de leche</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia8.jpg" alt="">
+                    <div class="info">
+                        <h4>Conservación</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia9.jpg" alt="">
+                    <div class="info">
+                        <h4>Productos para la lactancia</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES </h3>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Javascript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bases de Datos</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Photoshop</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="ps"></div>
+                </div>
+            </div>
+        </div>
+            
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Mi bebe</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia1.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripcion Proyecto</h4>
+                        <a href="#" target="_blank">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia2.jpg" alt="">
+                    <div class="info">
+                        <h4>Los primeros dias</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia3.jpg" alt="">
+                    <div class="info">
+                        <h4>Dificultades de agarre</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia4.jpg" alt="">
+                    <div class="info">
+                        <h4>Cosas que hace mi bebé</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia5.jpg" alt="">
+                    <div class="info">
+                        <h4>A partir de 6 meses</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia6.jpg" alt="">
+                    <div class="info">
+                        <h4>Mi bebé no gana peso</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia7.jpg" alt="">
+                    <div class="info">
+                        <h4>Mi bebé mama mucho</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia8.jpg" alt="">
+                    <div class="info">
+                        <h4>Alimento sólido</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia9.jpg" alt="">
+                    <div class="info">
+                        <h4>¿Mi bebé es prematuro?</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES </h3>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Javascript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bases de Datos</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Photoshop</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="ps"></div>
+                </div>
+            </div>
+        </div>
+
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Sobre Mi</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia1.jpg" alt="">
+                    <div class="info">
+                        <h4>Dolor del pecho</h4>
+                        <a href="#" target="_blank">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia2.jpg" alt="">
+                    <div class="info">
+                        <h4>Grietas y heridas</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia3.jpg" alt="">
+                    <div class="info">
+                        <h4>Bultos en el pecho</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia4.jpg" alt="">
+                    <div class="info">
+                        <h4>¿Tengo poca leche?</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia5.jpg" alt="">
+                    <div class="info">
+                        <h4>Relactar</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia6.jpg" alt="">
+                    <div class="info">
+                        <h4>Pecho: forma y tamaño</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia7.jpg" alt="">
+                    <div class="info">
+                        <h4>Dejar de dar el pecho</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia8.jpg" alt="">
+                    <div class="info">
+                        <h4>El destete por etapas</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia9.jpg" alt="">
+                    <div class="info">
+                        <h4>Inducción</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES </h3>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Javascript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bases de Datos</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Photoshop</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="ps"></div>
+                </div>
+            </div>
+        </div>
+
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Cunero Patologico</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia1.jpg" alt="">
+                    <div class="info">
+                        <h4>Dolor del pecho</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia2.jpg" alt="">
+                    <div class="info">
+                        <h4>Grietas y heridas</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia3.jpg" alt="">
+                    <div class="info">
+                        <h4>Bultos en el pecho</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia4.jpg" alt="">
+                    <div class="info">
+                        <h4>¿Tengo poca leche?</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia5.jpg" alt="">
+                    <div class="info">
+                        <h4>Relactar</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia6.jpg" alt="">
+                    <div class="info">
+                        <h4>Pecho: forma y tamaño</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia7.jpg" alt="">
+                    <div class="info">
+                        <h4>Dejar de dar el pecho</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia8.jpg" alt="">
+                    <div class="info">
+                        <h4>El destete por etapas</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/lactancia9.jpg" alt="">
+                    <div class="info">
+                        <h4>Inducción</h4>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+        <!-- SECCION FOOTER -->
+        <footer>
+            <p>© Todos los derechos reservados 2023 - Hospital Gineco Pediatrico N°7</p>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

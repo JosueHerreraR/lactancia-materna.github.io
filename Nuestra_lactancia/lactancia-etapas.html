@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="stylesheet" href="../css/faq.css">
+        <title></title>
+    </head>
+    <body>
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>Lactancia Materna</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            </ul>
+                        </nav>
+    
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+    
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Nuestra Lactancia</p>
+                    <h2>Lactancia por etapas</h2>
+                    <p class="descripcion">¿Sobre qué etapa quieres preguntar?</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="title">Preguntas frecuentes</h1>
+        
+            <div class="questions-container">
+                <div class="question">
+                    <button>
+                        <span>¿Preparar la lactancia durante el embarazo?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        La mejor manera para prepararte es leer, estar informada, saber dónde puedes contactar con una asesora de lactancia, 
+                        hablar con tu comadrona de todas las dudas que tengas... Y que prepares tu posparto inmediato dejando claro que quieres 
+                        dar el pecho a tu bebé y consiguiendo un agarre espontáneo en la misma sala de partos.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿Tengo que preparar el pezón?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        No, no es necesario. Todos los pezones sirven para dar el pecho y no es necesario endurecer, ni curtir los pezones 
+                        para evitar las grietas. Las grietas se producen por un mal agarre del bebé o por una dificultad de succión pero en ningún 
+                        caso por no haber preparado los pezones durante el embarazo.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿No tengo demasiado pecho?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        El pecho pequeño no es un problema para amamantar. El volumen del pecho se lo da la grasa subcutánea que tiene cada mujer. 
+                        Solo en el caso de tener un tipo de pecho muy concreto, llamado hipoplásico, puedes tener dificultades para conseguir una 
+                        lactancia materna exclusiva.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿Puedo ir a un grupo de apoyo a la lactancia?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        Puede parecer que estando embarazada no haces nada en un grupo de apoyo, nada más lejos de la realidad. Ir a visitar a un 
+                        grupo de apoyo durante el embarazo es una muy buena idea. En el grupo podrás observar cómo debes colocar al bebé, cómo se 
+                        debe agarrar al pecho y despejar todas las dudas que puedas tener.
+                    </p>
+                </div>
+
+                <div class="question">
+                    <button>
+                        <span>¿Qué puedo leer?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        Hay muchos libros relacionados con la lactancia de los que puedes aprender mucho. Algunos autores básicos para empezar a 
+                        informarte son Carlos González, Julio Basulto, Rosa Jové, José Mª Paricio...No dudes en leer todos los libros que puedas. 
+                        El leer y estar informada es una primera parte básica para afrontar la lactancia.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿El tipo de parto afecta a la lactancia?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        El proceso por el que se inicia la subida de leche se produce a partir de la separación de la placenta del útero. 
+                        Este hecho ocurre tanto en un parto vaginal como en un parto por cesárea. Lo que sí puede afectar la subida de leche son 
+                        las rutinas de separación madre-bebé, el ofrecimiento temprano de otras succiones diferentes al pecho como el chupete o 
+                        el biberón.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿Qué hacer justo después del parto?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        Una vez haya nacido tu bebé, lo ideal es que sea puesto sobre tu pecho o tu vientre de forma inmediata, los dos desnudos 
+                        y tapados, y se le permita reptar hasta el pecho y agarrarse solo. Este proceso se puede demorar entre 10 y 60 minutos. 
+                        Es esencial tener paciencia y no acercar al bebé al pecho por la cabeza. Después de esta primera toma los bebés entran 
+                        en un estado de letargo y duermen unas horas.
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                       
+                    </p>
+                </div>
+
+                <div class="question">
+                    <button>
+                        <span>¿?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                        
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+
+                    </p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>¿?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>
+                       
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION FOOTER -->
+        <footer>
+            <p>© Todos los derechos reservados 2023 - Hospital Gineco Pediatrico N°7</p>
+        </footer>
+
+        <script src="../js/main.js"></script>
+        <script src="../js/faq.js"></script>
+    </body>
+</html>
