@@ -117,7 +117,7 @@ html {
 
 #inicio .contenido .presentacion .descripcion {
     max-width: 700px;
-    margin: 25px auto;
+    margin: 15px 25px 20px 25px;
     font-size: 18px;
     text-align: center;
 }
@@ -384,11 +384,11 @@ html {
     color: #fff;
 }
 
-/*add this class when click*/
+/*Luego de hacer click*/
 .question p.show{
     max-height: 250px; 
     opacity: 1;
-    padding:0px 15px 30px 15px;
+    padding:15px 15px 20px 15px;
 }
 
 .question button .d-arrow.rotate{
@@ -491,6 +491,19 @@ footer a {
 /* seccion RESPONSIVE */
 /**********************/
         
+@media screen and (max-width: 980px) {
+    #portfolio {
+        padding: 50px 0;
+    }
+    #portfolio .fila {
+        display: block;
+    }
+    #portfolio .fila .proyecto{
+        margin: 10px auto;
+        max-width: 320px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .redes {
         display: none;
@@ -584,6 +597,14 @@ footer a {
         max-width: 82%;
         padding: auto;
     }
+    /* seccion FAQ */
+    .question p.show{
+        max-height: 350px; 
+        opacity: 1;
+        padding:15px 15px 15px 15px;
+        text-align: justify;
+
+    }
     /* seccion CONTACTO */
     #contacto {
         padding: 50px 15px;
@@ -597,3 +618,4 @@ footer a {
         margin-bottom: 15px;
     }
 }
+
