@@ -1,11 +1,11 @@
 Mi bebe:
-* Descripcion Proyecto
 * Los primeros dias
 * Dificultades de agarre
 * Cosas que hace mi bebé
 * A partir de 6 meses
 * Mi bebé no gana peso
 * Mi bebé mama mucho
+* Pañales sucios
 * Alimento sólido
 * ¿Mi bebé es prematuro?
 
