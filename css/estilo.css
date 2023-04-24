@@ -20,6 +20,7 @@ html {
     --titulo-seccion: #d3d3d3;
     --skill-barra: #919191;
     --efecto-hover: #ffc72c;
+    --color-icono: #EFBCD5;
 }
 
 /**********************/
@@ -268,7 +269,7 @@ html {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: var(--titulo-seccion);
+    background-color: var(--color-icono);
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -598,10 +599,12 @@ footer a {
     }
     #portfolio .fila {
         display: block;
+        margin: 15px;
     }
     #portfolio .fila .proyecto {
         margin: 10px auto;
         max-width: 82%;
+        margin-bottom: 15px;
         padding: auto;
     }
     /* seccion FAQ */
