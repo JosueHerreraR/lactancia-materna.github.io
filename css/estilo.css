@@ -11,7 +11,7 @@ html {
 }
 
 :root{
-    --call-action: #6CD4FF;
+    --call-action: #C2AFF0;
     --text-color: #FFF;
     --text-altern: #000;
     --sobre-mi: #111135;
@@ -190,7 +190,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: var(--color-icono);
+    color: var(--call-action);
 }
 
 #sobremi .sobremi h3 {
@@ -303,7 +303,7 @@ html {
 /**********************/
         
 .contenedor-skills {
-    background: linear-gradient( #ADFCF9, rgba(55, 112, 114, 0.378)), url("../img/bebe-principal.webp");
+    background: linear-gradient( #C2AFF0, rgba(55, 112, 114, 0.378)), url("../img/bebe-principal.webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
