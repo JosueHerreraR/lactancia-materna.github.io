@@ -50,7 +50,7 @@ html {
 } 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -68,7 +68,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -80,11 +80,11 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #inicio .contenido .presentacion {
@@ -113,7 +113,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 25px;
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -137,7 +137,7 @@ html {
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: var(--call-action);
+    background-color: var(--color-icono);
 }
 
 #icono-nav {
@@ -190,7 +190,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #sobremi .sobremi h3 {
@@ -220,7 +220,7 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-    background-color: var(--call-action);
+    background-color: var(--color-icono);
     color: var(--text-color);
 }
 
@@ -453,7 +453,7 @@ html {
     position: absolute;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: var(--call-action);
+    color: var(--color-icono);
     width: 100%;
     padding: 10px;
     opacity: 0;
@@ -468,7 +468,7 @@ html {
 }
 
 #portfolio .fila .proyecto a:hover {
-    color: var(--call-action);
+    color: var(--color-icono);
 }
 
 #portfolio .fila .proyecto:hover .info {
