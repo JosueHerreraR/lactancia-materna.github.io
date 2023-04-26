@@ -394,7 +394,7 @@ html {
 
 /*Luego de hacer click*/
 .question p.show{
-    max-height: 450px; 
+    max-height: 750px; 
     opacity: 1;
     padding:15px 15px 20px 15px;
 }
@@ -609,7 +609,7 @@ footer a {
     }
     /* seccion FAQ */
     .question p.show{
-        max-height: 750px; 
+        max-height: 1500px; 
         opacity: 1;
         padding:15px 15px 15px 15px;
         text-align: justify;
