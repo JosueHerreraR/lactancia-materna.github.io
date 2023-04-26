@@ -365,7 +365,7 @@ html {
 
 .question button{
     width: 100%;
-    background-color: #ABDAE1;
+    background-color: var(--color-icono);
     display: flex;
     justify-content: space-between;
     align-items: center;
