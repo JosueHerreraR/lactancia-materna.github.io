@@ -349,14 +349,14 @@ html {
     font-size: 25px;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-style: oblique;
 }
 
 .questions-container{
     max-width: 800px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .question{
@@ -387,6 +387,11 @@ html {
     transition: all 0.6s ease;
 }
 
+.question a{
+    text-decoration: none;
+    color: var(--efecto-hover);
+}
+
 .d-arrow{
     transition: transform 0.5s ease-in ;
     color: #fff;
@@ -394,7 +399,7 @@ html {
 
 /*Luego de hacer click*/
 .question p.show{
-    max-height: 750px; 
+    max-height: 850px; 
     opacity: 1;
     padding:15px 15px 20px 15px;
 }
